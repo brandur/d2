@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
 A cross-version compatible shortcut for invoking a Ruby debugger that will run properly under the currently executing environment.
   eos
 
-  gem.files = %w{lib/d2}
+  gem.files = %w{lib/d2.rb}
 
   if RUBY_VERSION < "1.9"
     gem.add_dependency "ruby-debug", "~> 0.10.4"
